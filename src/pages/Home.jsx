@@ -15,7 +15,7 @@ const Home = () => {
         <p>Find me online:</p>
     <ul>
       <li>
-        <a href="[jakshat70{at}gmail(dot)com]" target="_blank">Gmail</a>
+        <a href="[jakshat70{at}gmail(dot)com]">Gmail</a>
       </li>    
       <li>
         <a href="https://linkedin.com/in/akshat-007-jain/" target="_blank">Linkedin</a>
