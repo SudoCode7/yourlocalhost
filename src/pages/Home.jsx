@@ -15,13 +15,13 @@ const Home = () => {
         <p>Find me online:</p>
     <ul>
       <li>
-        <a href="[jakshat70{at}gmail(dot)com]" target="_blank">Gmail</a>
+        <a href="https://[jakshat70{at}gmail(dot)com]" target="_blank">Gmail</a>
       </li>    
       <li>
-        <a href="linkedin.com/in/akshat-007-jain/" target="_blank">Linkedin</a>
+        <a href="https://linkedin.com/in/akshat-007-jain/" target="_blank">Linkedin</a>
       </li>
       <li>
-        <a href="github.com/SudoCode7" target="_blank">Github</a>
+        <a href="https://github.com/SudoCode7" target="_blank">Github</a>
       </li>
     </ul>
       </div>
