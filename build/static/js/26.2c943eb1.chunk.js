@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkposts=self.webpackChunkposts||[]).push([[26],{26:function(s,e,t){s.exports=t.p+"static/media/blogpost1.6be03a7149122e5b469d.md"}}]);
