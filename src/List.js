@@ -10,9 +10,9 @@ const List = [
         Filename: "Reverse-Engineering"
     },
     {
-        Title: "How to clear your ISC²: Certified in Cybersecurity",
-        Description:"So I recently cleared my ISC²: Certified in Cybersecurity, a so-called beginner's friendly certification best suited for people who want to enter into the domain of cybersecurity. In this blog, we are going to cover from A-Z, starting from what ISC² is, the fee, exam structre, and how to clear this certification with ease.",
-        Filename: "blogpost"
+        Title: "Types of Password Attacks",
+        Description:"In today's world attacks vary from basic misconfiguration privilege escalations to advanced types of APT(Advanced Persistent Threat) level intrusions, the one thing which remains common in all of these attacks is brute-forcing password-cracking attempts.",
+        Filename: "password-attacks"
     }
 ]
 

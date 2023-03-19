@@ -2,9 +2,13 @@
 
 We all are hackers in some form or another. We all have used 'jugaad' in all our lives to solve countless problems, which indeed means we all would have done reverse engineering at some point irrespective of knowing it. In this week's blog, I am going to introduce how I reverse-engineered a locked/ binded wireless router to make it my personal device.
 
-  
+
+
+
+
 
 ![](https://static.wixstatic.com/media/nsplsh_ae6d511efbea455c96386896a401fe02~mv2.jpg/v1/fill/w_925,h_616,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/nsplsh_ae6d511efbea455c96386896a401fe02~mv2.jpg)
+
 
 Disclaimer- This blog is intended for educational purposes, I do not intend to harm any organization for profit, and this is done for sheer fun and learning purposes only.
 
