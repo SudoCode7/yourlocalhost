@@ -7,18 +7,11 @@ So I recently cleared my ISC²: Certified in Cybersecurity, a so-called beginner
 
 Contents:
 
--   What is ISC²?
-    
+-   What is ISC²?   
 -   Where does ISC² stand today?
-    
 -   What is Certified in Cybersecurity?
-    
 -   How to prepare for this certification?
-    
--   What is the fee structure?
-    
--   What is the fee structure?
-    
+-   What is the fee structure?    
 
   
 
