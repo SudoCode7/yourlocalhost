@@ -37,8 +37,8 @@
   to {
     transform: rotate(360deg);
   }
-
-  @media screen and (min-width: 380px) {
+}
+@media screen and (min-width: 380px) {
     .nav-container header ul{
         gap: 2em;
         padding-right: 2em;
