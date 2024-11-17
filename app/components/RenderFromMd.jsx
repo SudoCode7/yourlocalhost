@@ -14,6 +14,8 @@ import Img from "../components/Img";
 import UnOrderedList from "../components/UnOrderedList";
 import OrderedList from "../components/OrderedList";
 import List from "../components/List";
+import Code from "../components/Code";
+import Pre from "../components/Pre";
 
 export default function RenderFromMd({ filePath }) {
 
@@ -85,6 +87,18 @@ export default function RenderFromMd({ filePath }) {
                         component: List,
                         props: {
                             className: "my-1 before:content-['-'] before:mr-2"
+                        }
+                    },
+                    code: {
+                        component: Code,
+                        props: {
+                            className: "bg-gray-100 text-slate-800 px-2 py-1 rounded font-mono text-sm"
+                        }
+                    },
+                    pre: {
+                        component: Pre,
+                        props: {
+                            className: "bg-gray-100 text-white p-4 rounded-lg overflow-x-auto text-sm font-mono shadow-md border border-gray-700"
                         }
                     }
                 }
