@@ -5,7 +5,7 @@ export default function Home() {
     <div className="grid grid-cols-3 gap-6 mt-20 md:mt-28">
       <div className="justify-self-end hidden lg:block">
         <Image
-          src="/profile_pic.jpg"
+          src="/profile_pic.webp"
           width={250}
           height={450}
           className="border-black border"
