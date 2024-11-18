@@ -15,8 +15,8 @@ export default function Home() {
       <div className="max-w-xl flex flex-col gap-4 justify-center justify-self-center lg:justify-self-auto col-span-3 lg:col-span-2">
         <h1 className="text-4xl font-bold">Hi, I'm Akshat.</h1>
         <p className="text-2xl">
-          I'm a hacker and security researcher focused on exposing unlawful
-          targeted surveillance and other human rights abuses enabled by
+          I'm a hacker and security researcher focused on national security,
+          targeted surveillance, and other offensive security practices enabled by
           technology.
         </p>
         <div className="">
