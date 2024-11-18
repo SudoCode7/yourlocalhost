@@ -14,11 +14,11 @@ export default function Socials() {
             <Github size={30} className="m-2 hover:scale-[1.1] transition-transform"/>
         </Link>
         </li>
-        <li>
+        {/* <li>
         <Link href="#">
             <Mail size={30} className="m-2 hover:scale-[1.1] transition-transform"/>
         </Link>
-        </li>
+        </li> */}
         <li>
         <Link href="https://www.linkedin.com/in/akshat-007-jain/">
             <Linkedin size={30} className="m-2 hover:scale-[1.1] transition-transform"/>
