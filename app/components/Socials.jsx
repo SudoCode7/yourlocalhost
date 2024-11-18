@@ -5,12 +5,12 @@ export default function Socials() {
   return (
     <ul className="flex gap-6">
         <li>
-        <Link href="#" className="">
+        <Link href="https://x.com/AkshatOnDuty/" className="">
             <Twitter size={30} className="m-2 hover:scale-[1.1] transition-transform"/>
         </Link>
         </li>
         <li>
-        <Link href="#">
+        <Link href="https://github.com/SudoCode7">
             <Github size={30} className="m-2 hover:scale-[1.1] transition-transform"/>
         </Link>
         </li>
@@ -20,7 +20,7 @@ export default function Socials() {
         </Link>
         </li>
         <li>
-        <Link href="#">
+        <Link href="https://www.linkedin.com/in/akshat-007-jain/">
             <Linkedin size={30} className="m-2 hover:scale-[1.1] transition-transform"/>
         </Link>
         </li>
