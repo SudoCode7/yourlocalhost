@@ -3,7 +3,8 @@
 I have also developed and contributed to a number of open-source projects.
 
 #### [**Plant-Watering using Arduino**](https://github.com/SudoCode7/Plant-Watering):
-Wouldn't it be interesting if you are out on a vacation and a simple hardware like arduino can water our plants working just on a powerbank for days at a time? \n /n
+Wouldn't it be interesting if you are out on a vacation and a simple hardware like arduino can water our plants working just on a powerbank for days at a time? 
+
 Indeed, this is why this project was created....!
 
 #### [**Compare & Shop**](https://github.com/SudoCode7/Compare-Shop):
