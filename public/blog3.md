@@ -14,7 +14,6 @@ Laptops are unique machines with commonly available and easily swappable parts. 
 2. Upgradable parts (discussed further below).  
 3. A screwdriver set to open up the machine.  
 
----
 
 ### Getting Started
 
@@ -51,22 +50,18 @@ If your OS boots slowly or apps take too long to load, upgrade your **hard drive
 
 Check your laptop’s compatibility and choose an SSD within your budget. Any SSD will perform significantly faster than a hard disk.  
 
----
 
 #### 3. Wi-Fi Card
 Many older laptops lack 5GHz Wi-Fi support, which is crucial for faster internet speeds. If your laptop doesn’t support 5GHz, replace the Wi-Fi card. They’re affordable and easy to install.  
 
----
 
 #### 4. Processor and GPU
 Upgrading these is rare, as most manufacturers don’t allow it. If you’re still using an Intel Pentium processor, it’s time to replace the entire machine. For more guidance, check out my *Complete Laptop Buying Guide*.  
 
----
 
 #### 5. Battery
 A degraded battery can cause poor laptop performance. Use tools like **BatteryInfoView** to check battery health. Replace it if health drops below 60%.  
 
----
 
 #### 6. Thermals
 Proper thermal management improves performance. Over time, thermal paste dries out, reducing heat dissipation and increasing resistance in the processor.  
@@ -75,12 +70,11 @@ Proper thermal management improves performance. Over time, thermal paste dries o
 - Apply a small amount of thermal paste before reassembling.  
 - Only attempt this if you feel confident, as improper handling can damage your laptop.  
 
----
+
 
 #### 7. Keyboard
 If some keys are non-functional, look for a replacement keyboard online or at local stores. Swapping the keyboard is often easier than repairing it. YouTube tutorials specific to your laptop model can help.  
 
----
 
 #### 8. Cleaning and Assembly
 Once you’ve acquired all the necessary parts, follow these steps:

@@ -20,6 +20,13 @@ export default [
     date: '2024-03-10',
     title: 'The Complete Laptop Upgradation Guide',
   },
+  {
+    id: 4,
+    slug: 'aws-cp',
+    blogFile: '/blog4.md',
+    date: '2024-04-10',
+    title: 'How I Cleared My AWS Cloud Practitioner for Almost Free!',
+  },
   // {
   //   id: 2,
   //   slug: 'mastering-react-hooks',
