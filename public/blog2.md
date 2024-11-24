@@ -15,6 +15,7 @@ So I recently cleared my ISC²: Certified in Cybersecurity, a so-called beginner
 - **What is the fee structure?**
 
 
+
 **What is ISC²?**
 
 The International Information Systems Security Certification Consortium, or (ISC)2, is a non-profit organization that offers security training and certification.
@@ -63,5 +64,5 @@ My parting words: Learn all the material thoroughly to clear the exam with flyin
   
 
 **My parting words**: Learn all the material thoroughly to clear the exam with flying colors, it may look like an intro and easy cert, but it will require ***your*** enduring and consistent efforts to clear it at the end of the day, as the concepts you will find here are going to be new and mind-boggling to start with.
-Prepare well and best of luck for all ur future endueavours!
+
 Prepare well and best of luck for all ur future endueavours!
