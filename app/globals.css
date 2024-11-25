@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    .hyphen > li{
+        list-style-type: none;
+    }
+
+    .hyphen > li::before{
+        content: ' - ';
+        margin-right: 0.5rem;
+    }
+
+    hr{
+        margin: 0 0 2rem;
+    }
+}

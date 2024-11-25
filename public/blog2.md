@@ -14,8 +14,6 @@ So I recently cleared my ISC²: Certified in Cybersecurity, a so-called beginner
 - **What is the fee structure?**
 - **What is the fee structure?**
 
-
-
 **What is ISC²?**
 
 The International Information Systems Security Certification Consortium, or (ISC)2, is a non-profit organization that offers security training and certification.
@@ -39,6 +37,7 @@ After giving this exam, I am pretty sure, it is enduring to study for, it introd
   
 
 **How to prepare for this certification?**
+
 To prepare for Certified in Cybersecurity, I would surely recommend going through all the material provided by ISC2 and revising from the various notes of Sec+ found, online.
 
 One of the major differences I was able to find was the study material provided by ISC2 and the exam questions differ a bit, to prepare well, learn everything by heart, solve all questions thoroughly given with the course material, and have a strong understanding of scenario-based questions.
