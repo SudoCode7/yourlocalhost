@@ -74,19 +74,19 @@ export default function RenderFromMd({ filePath }) {
                     ol: {
                         component: OrderedList,
                         props: {
-                            className: "list-decimal pl-6 text-lg"
+                            className: "list-decimal pl-8 text-lg mb-6 ml-8"
                         }
                     },
                     ul: {
                         component: UnOrderedList,
                         props: {
-                            className: "list-none pl-6 text-lg"
+                            className: "hyphen pl-8 text-lg mb-6"
                         }
                     },
                     li: {
                         component: List,
                         props: {
-                            className: "my-1 before:content-['-'] before:mr-2"
+                            className: "my-1"
                         }
                     },
                     code: {
