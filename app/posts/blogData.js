@@ -27,13 +27,13 @@ export default [
     date: '2024-04-10',
     title: 'How I Cleared My AWS Cloud Practitioner for Almost Free!',
   },
-  // {
-  //   id: 2,
-  //   slug: 'mastering-react-hooks',
-  //   blogFile: '/blog2.md',
-  //   date: '2024-02-10',
-  //   title: 'Mastering React Hooks: A Complete Guide to Efficient State Management',
-  // },
+  {
+    id: 5,
+    slug: 'better-osint',
+    blogFile: '/blog5.md',
+    date: '2024-12-10',
+    title: 'How to be a better OSINTer',
+  },
   // {
   //   id: 2,
   //   slug: 'mastering-react-hooks',
