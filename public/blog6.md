@@ -44,6 +44,7 @@ Personalize searching to target a particular person or organization.
 This means mastering basic command-line tools, such as `sed`, `awk`, and `cut`, that can be very powerful for data manipulation and extraction.
  Learn scripting : Automate repetitive tasks and streamline your workflow using scripting languages like Python or Bash.
  Explore data analysis tools : Use Splunk, Kibana, or Jupyter Notebook to analyze large datasets and extract meaningful information.
+ 
 ``` shell
 Replace "OLD" with "NEW": sed -i 's/OLD/NEW/g' data. txt
 Replace all commas with a hyphen: sect -i 's / \, / \ -/ g' data. txt
