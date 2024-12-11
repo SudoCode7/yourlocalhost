@@ -2,7 +2,7 @@
 
 There is nothing more fascinating than the power of Open-Source Intelligence, which truly unlocks hidden secrets, brings to light threats, and provides vital information. 
 
-![[osint.webp]]
+![](/osint.webp)
 
 
 **Beyond the Basics**
@@ -13,17 +13,17 @@ Continuous improvement is the key to mastering OSINT. This isn't a guide to spec
 
 1. **Understand Your Target's Digital Footprint**
 
-	* ***Geopolitical subtlety :** Digital behavior varies through every culture and region. Whatever is popular in one region may be unknown in other regions.
-	* ***Platform choices.** Identify which platforms would allow your target to be very likely to visit. Be it a niche social site, a particular forum or simply a professional networking site.
+	* **Geopolitical subtlety :** Digital behavior varies through every culture and region. Whatever is popular in one region may be unknown in other regions.
+	* **Platform choices.** Identify which platforms would allow your target to be very likely to visit. Be it a niche social site, a particular forum or simply a professional networking site.
 	* **Data Privacy Laws:** Be aware of data privacy regulations in various jurisdictions. This can impact the availability of information and the techniques you can use.
 
 2. **Google Dorking Mastery**
 
 	Google Dorking is a potent technique that allows you to extract specific information from Google Search. Here are some advanced tips:
 
-* **Use Boolean Operators:** Use keywords along with operators such as "AND," "OR," and "NOT" to refine your search queries.
-* **Target Site-Specific Searches:** Target specific websites or domains to narrow down your search results.
-* **Explore Advanced Search Operators:** Use operators like "filetype," "intitle," and "inurl" to filter results based on file type, title, or URL.
+	* **Use Boolean Operators:** Use keywords along with operators such as "AND," "OR," and "NOT" to refine your search queries.
+	* **Target Site-Specific Searches:** Target specific websites or domains to narrow down your search results.
+	* **Explore Advanced Search Operators:** Use operators like "filetype," "intitle," and "inurl" to filter results based on file type, title, or URL.
 
 3.  **The Breached Data**
 
@@ -48,7 +48,7 @@ Continuous improvement is the key to mastering OSINT. This isn't a guide to spec
 	 Explore data analysis tools : Use Splunk, Kibana, or Jupyter Notebook to analyze large datasets and extract meaningful information.
 	 
 	 
-	``` shell
+	```shell
 	Replace "OLD" with "NEW": sed -i 's/OLD/NEW/g' data. txt
 	Replace all commas with a hyphen: sect -i 's / \, / \ -/ g' data. txt
 	Replace all tabs with a comma: sed -i 's/ [ strike ctrl-v-tab] /\, /g' data. txt
