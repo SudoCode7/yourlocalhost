@@ -98,7 +98,7 @@ export default function RenderFromMd({ filePath }) {
                     pre: {
                         component: Pre,
                         props: {
-                            className: "bg-gray-100 text-white p-4 rounded-lg overflow-x-auto text-sm font-mono shadow-md border border-gray-700"
+                            className: "bg-gray-100 text-white p-4 rounded-lg overflow-x-auto text-sm font-mono shadow-md border border-gray-700 whitespace-pre-line"
                         }
                     }
                 }
