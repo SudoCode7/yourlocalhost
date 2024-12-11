@@ -5,7 +5,7 @@ There is nothing more fascinating than the power of Open-Source Intelligence, wh
 ![[osint.webp]]
 
 
-**Beyond the Basics
+**Beyond the Basics**
 
 Let's face it. We all have started our OSINT journey with some basic Google dorking, social media footprinting, and data breaches. While these are the base, there is much more to OSINT than these. To do things properly and efficiently, one needs to think beyond the book and be versatile enough for constantly changing the digital world.
 
@@ -94,7 +94,7 @@ Continuous improvement is the key to mastering OSINT. This isn't a guide to spec
 	Track Attacker Behavior: Understand the tactics, techniques, and procedures of the attacker.
 	Detect Early Indicators of Compromise: Identify possible threats before they escalate.
 
-**Ethical Considerations
+**Ethical Considerations**
 
 OSINT is a very strong tool, but it is always to be used responsibly and ethically. Respect privacy laws and do not cause harm to individuals or organizations. Therefore, following these guidelines and continually honing your skills, you can become a formidable OSINT practitioner.
 
