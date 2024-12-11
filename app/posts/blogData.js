@@ -30,7 +30,7 @@ export default [
   {
     id: 5,
     slug: 'better-osint',
-    blogFile: '/blo5.md',
+    blogFile: '/blog5.md',
     date: '2024-12-10',
     title: 'How to be a better OSINTer',
   },
