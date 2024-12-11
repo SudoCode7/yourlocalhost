@@ -1,22 +1,52 @@
 # How to be a better OSINTer
-Yes yes, I will start my blog by spilling the beans that yes I have myself studied [] book by Michael Bazzel. But my history with OSINT dates long back to my days of college. As a hacker we all would have done some form of OSINT when we got started somewhere. Remember the website you used to get cracked softwares from or the place where u would get cybersecurity courses for for free from....
 
-In todays world OSINT has become a vital part of cybersecurity's daily workflow. We use it to find exploits while doing red team engagements, search for IOCs when an alert fires in SOC or just to corellate the activitities carried out by people in orgs like looking up thier JD, role, email etc.
+There is nothing more fascinating than the power of Open-Source Intelligence, which truly unlocks hidden secrets, brings to light threats, and provides vital information. 
 
-It is a truly continous process of improvement. And this is not a blog of where you can find people or which courses to study from, I am really not into the spca of writing tutorials for people to foolow to do OSINT, you can find plethora off those all over the internet. Indtead I would recommend some tit-bits which can actually help you to really improve your vision to look for at the right place.
+![[OSINT.webp]]
 
-1. OSINT is not the same for every geographical location in the world, if a major chunk of the world uses whatsapp a lot to communicate, it still does not apply to every geographical location, Whatsapp is from US still people don't use it there. Another example is Ebay, it is pretty common in US but not in India or most parts of the world. Study the tech utilized at a place to be more efficient in your OSINT searches.
-2.  Learn Google dorking throughly, you would be amazed to know most of the things will get sorted if this is done throughly, utilize cheatsheets which are freely available on the internet to find curated results of your target.
-3.  I want to state again that breach
-data has been the absolute biggest aid in my online investigations. I rely on it way more than Facebook, Twitter,
-and Instagram combined. This data can be a goldmine to get you closer to your suspect, you can get real email ids associated with the targe [one of the most underrate thing which people have is that they will use same passowrds for all their account and this helps us to find theitr originAL accounst]
-4. learning to maintain a breached database, well if you are searching them on online database rather why not have a stuructured database to grow 
-5. Stealer logs
-6. Ransomware data another place to find your
-8. using mind map software
-9. Learnig SEd. awk and cut: (the most underrated tools of linux in the world)
-   Some terminal startergies:
-   Replace "OLD" with "NEW": sed -i 's/OLD/NEW/g' data. txt
+**Beyond the Basics
+
+Let's face it. We all have started our OSINT journey with some basic Google dorking, social media footprinting, and data breaches. While these are the base, there is much more to OSINT than these. To do things properly and efficiently, one needs to think beyond the book and be versatile enough for constantly changing the digital world.
+
+Continuous improvement is the key to mastering OSINT. This isn't a guide to specific tools or courses, as countless resources are readily available online. Instead, I'll share insights to sharpen your perspective and guide your investigations
+
+**1. Understand Your Target's Digital Footprint**
+
+**Geopolitical subtlety :** Digital behavior varies through every culture and region. Whatever is popular in one region may be unknown in other regions.
+**Platform choices.** Identify which platforms would allow your target to be very likely to visit. Be it a niche social site, a particular forum or simply a professional networking site.
+* **Data Privacy Laws:** Be aware of data privacy regulations in various jurisdictions. This can impact the availability of information and the techniques you can use.
+
+**2. Google Dorking Mastery
+
+Google Dorking is a potent technique that allows you to extract specific information from Google Search. Here are some advanced tips:
+
+* **Use Boolean Operators:** Use keywords along with operators such as "AND," "OR," and "NOT" to refine your search queries.
+* **Target Site-Specific Searches:** Target specific websites or domains to narrow down your search results.
+* **Explore Advanced Search Operators:** Use operators like "filetype," "intitle," and "inurl" to filter results based on file type, title, or URL.
+
+**3. The Breached Data**
+ Breached data is an absolute goldmine for OSINT investigations. You can obtain a lot of information, including:
+
+* **Actual Email Addresses:** Many people use the same password on multiple accounts. The breached data can reveal their email address.
+* **Phone Numbers:** Breached data can provide phone numbers associated with different accounts, which can be a good clue on the identity of your victim.
+* **Home Addresses:** Some breached data may include the home addresses, which might be a big chunk of the puzzle.
+
+**4. Create Your Own Breached Data Cache
+
+Instead of depending on some online databases, design your private organized repository to store and analyze breached information. From there, you shall be able to:
+ 
+Cross-reference data to reveal undetected patterns.
+Identify trends in the data, which will help deepen your insights.
+Personalize searching to target a particular person or organization.
+
+5. **Leverage Technical Skills**
+
+This means mastering basic command-line tools, such as `sed`, `awk`, and `cut`, that can be very powerful for data manipulation and extraction.
+ Learn scripting : Automate repetitive tasks and streamline your workflow using scripting languages like Python or Bash.
+ Explore data analysis tools : Use Splunk, Kibana, or Jupyter Notebook to analyze large datasets and extract meaningful information.
+ 
+``` shell
+Replace "OLD" with "NEW": sed -i 's/OLD/NEW/g' data. txt
 Replace all commas with a hyphen: sect -i 's / \, / \ -/ g' data. txt
 Replace all tabs with a comma: sed -i 's/ [ strike ctrl-v-tab] /\, /g' data. txt
 Remove all data until the first comma: sect -i 's /" \ ( [", ] *, \) / / g' data. txt
@@ -43,14 +73,28 @@ Display total lines in a file: we -1 data. txt
 Cut columns1,2,and6:LANG=C cut -d, -fl,2,6 data.txt > newfile.txt
 Remove hyphens from phone numbers: sed -i 's/\ ( [ 0-9] \ { 3, \} \) -/\1 /g' data. txt
 Cut columnsfromJSON:jq --raw-output "'\(.email)\(.password),"' l.json > new.txt
+```
 
-"We can
-no longer keep our heads in the sand and hope no one notices the leakage of sensitive data. We must think like
-the criminals and attack from their mindset. If you are an online investigator who can responsibly benefit from
-this type of data, I want you to know what to do with the content you find. I also want you to protect the data
-and make sure you cause no further harm." - Machel bzzel
+6. Visualize Your Research through Mind Mapping
 
+Mind mapping is a very effective technique in organizing information and establishing links between items. It helps you visually understand the big picture that has been derived from your findings. You can use mind mapping software to:
 
+Organize Information: Structure your research in a hierarchical format.
+Identify Relationships: Discover connections between apparently unrelated pieces of information.
+Prioritize Tasks: Focus on the most important leads and potential breakthroughs.
 
+7. Using Stealer Logs for in-depth analysis
 
+Stealer logs, obtained from compromised systems, are a treasure trove of information about an attacker's activities. Analyzing them will help you:
+
+Recover Compromised Credentials: Uncover stolen usernames, passwords, and other sensitive information.
+Track Attacker Behavior: Understand the tactics, techniques, and procedures of the attacker.
+Detect Early Indicators of Compromise: Identify possible threats before they escalate.
+
+**Ethical Considerations
+
+OSINT is a very strong tool, but it is always to be used responsibly and ethically. Respect privacy laws and do not cause harm to individuals or organizations. Therefore, following these guidelines and continually honing your skills, you can become a formidable OSINT practitioner.
+
+Alas i would like to end by the quote by *the man, the god father* of OSINT himself:
+"We can no longer keep our heads in the sand and hope no one notices the leakage of sensitive data. We must think like the criminals and attack from their mindset. If you are an online investigator who can responsibly benefit from this type of data, I want you to know what to do with the content you find. I also want you to protect the data and make sure you cause no further harm." - Michael Bazzell
 
