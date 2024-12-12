@@ -37,9 +37,9 @@ export default [
   {
     id: 6,
     slug: 'network-query',
-    blogFile: '/blo62.md',
+    blogFile: '/blog6.md',
     date: '2024-02-10',
-    title: 'Mastering React Hooks: A Complete Guide to Efficient State Management',
+    title: 'Where does your first IP address query really go or what is a Domain Name System or DNS?',
   },
     // {
   //   id: 2,
