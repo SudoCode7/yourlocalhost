@@ -34,7 +34,14 @@ export default [
     date: '2024-12-10',
     title: 'How to be a better OSINTer',
   },
-  // {
+  {
+    id: 6,
+    slug: 'network-query',
+    blogFile: '/blo62.md',
+    date: '2024-02-10',
+    title: 'Mastering React Hooks: A Complete Guide to Efficient State Management',
+  },
+    // {
   //   id: 2,
   //   slug: 'mastering-react-hooks',
   //   blogFile: '/blog2.md',

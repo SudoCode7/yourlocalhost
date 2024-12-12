@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "public/blog5.md",
+                "file": "public/blog6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "blog5"
+              "title": "blog6"
             }
           }
         ]
@@ -160,9 +160,10 @@
   },
   "active": "3cd0e2fcb504d642",
   "lastOpenFiles": [
+    "public/image.png",
+    "public/blog5.md",
     "public/OSINT.jpg",
     "public/blog6.md",
-    "public/blog5.md",
     "public/OSINT.webp",
     "public/profile_pic.webp",
     "public/blog4.md"
