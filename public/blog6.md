@@ -1,88 +1,69 @@
-# Where does your first IP address query really go or what is a Domain Name System or DNS?
+# Where Does Your First IP Address Query Really Go? Understanding the Domain Name System (DNS)
 
-We all would have wondered at some time or the other, where basically our IP addresses address come from? 
+Have you ever wondered where your IP address comes from or how it helps you reach a website? Let’s dive into the fascinating world of the Domain Name System (DNS) in the simplest way possible.  
 
-Let's try to understand this in the simplest way possible.
-![alt text](https://static.wixstatic.com/media/nsplsh_676c527179574a67556559~mv2_d_6016_4016_s_4_2.jpg/v1/fill/w_925,h_618,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/nsplsh_676c527179574a67556559~mv2_d_6016_4016_s_4_2.jpg)
+---
 
-So let's start,
+### What Happens When You Search for a Website?
 
+When you search for a website on Google, you see search results. You click on the desired link, and voila, you land on the webpage. But what goes on in the background? Here’s a step-by-step breakdown:  
 
-You query your website of choice on google, google get's you it's url, you click on it and tada, you are on the webpage you intended for!
+1. **Search Query:** You type a query into Google, and it shows relevant results.  
+2. **Click and Fetch:** Once you click a link, Google retrieves the IP address of the website using the DNS (Domain Name System).  
+3. **Redirection:** Your browser uses this IP address to connect you to the website hosted somewhere in the world.  
 
+![How DNS Works](https://static.wixstatic.com/media/e8c859_bc28a091ae064146901c6fdc4c8a24fd~mv2.png/v1/fill/w_925,h_333,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e8c859_bc28a091ae064146901c6fdc4c8a24fd~mv2.png)  
+*Image Source: Cloudflare*
 
-Let's see what happens in the background --> 
-1. You query your website of choice on google and google gets you it's nearest , similar or the same search results.
-2. Once you click on this link, of your choice, google goes and fetches the ip for your intended link from the Domain Name System or DNS. 
-3.  After receiving this ip from the DNS, your browser will redirect this request to your destination's website located somewhere else in the world.
+---
 
-![alt text](https://static.wixstatic.com/media/e8c859_bc28a091ae064146901c6fdc4c8a24fd~mv2.png/v1/fill/w_925,h_333,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e8c859_bc28a091ae064146901c6fdc4c8a24fd~mv2.png)
+### DNS Hierarchy and Resolution Process  
 
-Image Source: Cloudflare
+The Domain Name System operates in a hierarchical structure to resolve IP addresses efficiently:  
 
-Let's explore what happens in these DNSs -->
-1. Every networking device has it's own DNS cache, weather it may be router, mobile, laptop etc.
-2. Before querying the higher DNS server in the network, every device will check it's DNS cache first, to check if the ip address of your desired website is present, only then it will ask the higher authority DNS for help till the root DNS server.
+1. **DNS Cache:** Every device—be it a router, mobile, or laptop—maintains a DNS cache. Before querying higher DNS servers, devices check their cache for the desired IP.  
+2. **Querying DNS Servers:** If the IP isn’t found in the cache, the query moves up the hierarchy—from local DNS servers to higher authority DNS servers, and finally to root DNS servers.  
+3. **Root Servers and Zones:** The DNS hierarchy starts with root servers, which manage the root zone. These servers refer requests to Top Level Domain (TLD) servers if the required record isn’t in their cache.  
 
+This structured hierarchy ensures efficient and accurate IP address resolution.  
 
+---
 
-The administration of the Domain Name System (DNS) is structured in a hierarchy using different managed areas or “zones”, with the root zone at the very top of that hierarchy. Root servers are DNS nameservers that operate in the root zone. These servers can directly answer queries for records stored or cached within the root zone, and they can also refer other requests to the appropriate Top Level Domain (TLD) server. The TLD servers are the DNS server group one step below root servers in the DNS hierarchy, and they are an integral part of resolving DNS queries.
+### What Happens If Something Goes Wrong?  
 
-"The administration of the Domain Name System (DNS) is structured in a hierarchy using different managed areas or “zones”, with the root zone at the very top of that hierarchy. Root servers are DNS nameservers that operate in the root zone. These servers can directly answer queries for records stored or cached within the root zone, and they can also refer other requests to the appropriate Top Level Domain (TLD) server. The TLD servers are the DNS server group one step below root servers in the DNS hierarchy, and they are an integral part of resolving DNS queries."
+Cybersecurity issues in the DNS system can lead to severe consequences:  
 
-As simply quoted by Cloudflare.
+1. **DNS Poisoning (Cache Poisoning):**  
+   An attacker can manipulate DNS records to redirect you to a malicious website that looks identical to the original. You might unknowingly share sensitive data like banking passwords with the attacker.  
 
+2. **DNS Outage:**  
+   If DNS servers go down, your ISP (Internet Service Provider) may switch to backup servers. However, some websites may become inaccessible, even though search engines might continue functioning due to their constant IP addresses.  
 
+3. **Privacy Breaches:**  
+   Your ISP can track your online activity, sell your data, or share it with governments when required.  
 
+---
 
+### Steps to Stay Secure  
 
+Here are some best practices to protect yourself:  
 
+1. **Use Trusted DNS Providers:**  
+   - Cloudflare DNS  
+   - OpenDNS  
+   - Google DNS  
 
+2. **Use a VPN on Public Wi-Fi:**  
+   A VPN encrypts your connection, adding a layer of security.  
 
+While these measures won’t make you entirely anonymous online, they are a crucial step toward better security.  
 
+---
 
- 
+### Final Thoughts  
 
+The DNS system is the backbone of the internet, ensuring seamless connectivity. However, understanding its vulnerabilities and adopting safe practices can help you navigate the online world securely.  
 
+Subscribe to my mailing list below to stay updated with more interesting and informative content.  
 
-Now let's try to understand of what would happen if anything happens to these servers in the form of cybersecurity and goes sideways- 
-
-1. Let's say if the DNS servers are poisoned:
-
-The attacker will divert you to a malicious  and same looking website, here you may end up loosing your banking password, social media etc. as it is not the original website you intended to go to but a filter copy of it, run by the attacker.
-
-
-
-2. If the DNS goes down:
-In this scenario, most ISPs (Internet Service Provider) may end up shifting to backup servers or you may end up, not having to get to a website but your search engine will keep on working as it is generally on a constant IP.
-
-
-
-3. Loosing your privacy:
-The worst case scenario and the most occurred worst case scenario, is you getting yourself tracked, where your IP addresses are going as well as your ISP tracking which websites you visit regularly and monetizing from that content or giving data to the government when required.
-
-
-
-To prevent this from happening, shift to some trusted DNS providers in your mobile, laptop as well as your Router like:-
-
-
-
-
-
-Cloudflare DNS
-
-
-
-OpenDNS
-
-
-
-Google DNS
-
-And don't forget to use a VPN on a public wifi too. These steps will surely not completely anonymize you from the internet but will definitely help you take a baby step towards getting secured well in the online jungle.
-
-
-That's it for this week, a nice short but an informative one.
-Don't forget to subscribe to my mailing list down below, to learn about such new & interesting content by being the first on my platform.
-
-Till then keep safe, keep learning :-)
+**Stay safe, keep learning, and see you next week! 😊**

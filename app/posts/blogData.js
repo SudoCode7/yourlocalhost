@@ -38,7 +38,7 @@ export default [
     id: 6,
     slug: 'network-query',
     blogFile: '/blog6.md',
-    date: '2024-02-10',
+    date: '2024-12-19',
     title: 'Where does your first IP address query really go or what is a Domain Name System or DNS?',
   },
     // {
