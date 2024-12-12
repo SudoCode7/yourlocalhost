@@ -18,6 +18,7 @@ Let's see what happens in the background -->
 
 ![alt text](https://static.wixstatic.com/media/e8c859_bc28a091ae064146901c6fdc4c8a24fd~mv2.png/v1/fill/w_925,h_333,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e8c859_bc28a091ae064146901c6fdc4c8a24fd~mv2.png)
 
+Image Source: Cloudflare
 
 Let's explore what happens in these DNSs -->
 1. Every networking device has it's own DNS cache, weather it may be router, mobile, laptop etc.
@@ -26,6 +27,8 @@ Let's explore what happens in these DNSs -->
 
 
 The administration of the Domain Name System (DNS) is structured in a hierarchy using different managed areas or “zones”, with the root zone at the very top of that hierarchy. Root servers are DNS nameservers that operate in the root zone. These servers can directly answer queries for records stored or cached within the root zone, and they can also refer other requests to the appropriate Top Level Domain (TLD) server. The TLD servers are the DNS server group one step below root servers in the DNS hierarchy, and they are an integral part of resolving DNS queries.
+
+"The administration of the Domain Name System (DNS) is structured in a hierarchy using different managed areas or “zones”, with the root zone at the very top of that hierarchy. Root servers are DNS nameservers that operate in the root zone. These servers can directly answer queries for records stored or cached within the root zone, and they can also refer other requests to the appropriate Top Level Domain (TLD) server. The TLD servers are the DNS server group one step below root servers in the DNS hierarchy, and they are an integral part of resolving DNS queries."
 
 As simply quoted by Cloudflare.
 
@@ -38,7 +41,7 @@ As simply quoted by Cloudflare.
 
 
 
-Image Source: Cloudflare 
+ 
 
 
 
