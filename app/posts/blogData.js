@@ -5,6 +5,9 @@ export default [
     blogFile: '/blog1.md',
     date: '2024-01-15',
     title: 'My Hands-on Reverse Engineering a Router... Everyone is welcome',
+    image: 'https://images.unsplash.com/photo-1727261909598-ce67f083f858?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    description: 'Discover the journey of reverse engineering a Wi-Fi router step by step in this hands-on blog.',
+    author: 'Akshat Jain',
   },
   {
     id: 2,
@@ -12,6 +15,9 @@ export default [
     blogFile: '/blog2.md',
     date: '2024-02-10',
     title: 'How to ace your ISC²: Certified in Cybersecurity',
+    image: 'https://yourdomain.com/images/isc2-cc.jpg',
+    description: 'Learn effective tips and tricks to pass the ISC² Certified in Cybersecurity exam with confidence.',
+    author: 'Akshat Jain',
   },
   {
     id: 3,
@@ -19,6 +25,9 @@ export default [
     blogFile: '/blog3.md',
     date: '2024-03-10',
     title: 'The Complete Laptop Upgradation Guide',
+    image: 'https://yourdomain.com/images/laptop-upgradation.jpg',
+    description: 'A comprehensive guide to upgrading your laptop for better performance and longevity.',
+    author: 'Akshat Jain',
   },
   {
     id: 4,
@@ -26,6 +35,9 @@ export default [
     blogFile: '/blog4.md',
     date: '2024-04-10',
     title: 'How I Cleared My AWS Cloud Practitioner for Almost Free!',
+    image: 'https://yourdomain.com/images/aws-cp.jpg',
+    description: 'Explore my strategies for clearing the AWS Cloud Practitioner exam without breaking the bank.',
+    author: 'Akshat Jain',
   },
   {
     id: 5,
@@ -33,6 +45,9 @@ export default [
     blogFile: '/blog5.md',
     date: '2024-12-10',
     title: 'How to be a better OSINTer',
+    image: 'https://yourdomain.com/images/better-osint.jpg',
+    description: 'Improve your OSINT skills with actionable tips and tools in this practical guide.',
+    author: 'Akshat Jain',
   },
   {
     id: 6,
@@ -47,5 +62,9 @@ export default [
   //   blogFile: '/blog2.md',
   //   date: '2024-02-10',
   //   title: 'Mastering React Hooks: A Complete Guide to Efficient State Management',
+  //   image: '',
+  //   description: '',
+  //   author: 'Akshat Jain'
   // },
 ];
+
