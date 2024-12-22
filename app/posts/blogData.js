@@ -15,7 +15,7 @@ export default [
     blogFile: '/blog2.md',
     date: '2024-02-10',
     title: 'How to ace your ISC²: Certified in Cybersecurity',
-    image: 'https://yourdomain.com/images/isc2-cc.jpg',
+    image: '/OSINT.jpg',
     description: 'Learn effective tips and tricks to pass the ISC² Certified in Cybersecurity exam with confidence.',
     author: 'Akshat Jain',
   },
